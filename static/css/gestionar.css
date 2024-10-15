@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.header {
+    
+    /*position: fixed;*/
+    height: 80px;
+    width: 100%;
+    z-index: 50px;
+    padding: 0 20px;
+    height: 80px;
+    background-image: url("/static/imagenes/we\ bare\ bears\ wallpaper.jpeg");
+}
+
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0  auto;
+       
+}
+
+
+.nav, 
+.nav_item{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}/*dar forma al menu */
+
+
+.nav_link{
+    color: black;
+}
+
+.nav_logo,
+.nav_link,
+.button{
+    color: #fff;
+
+}/*Darle color al logo y a la palabra login*/
+
+.nav_logo{
+    font-size: 25px;
+}/*dar tamañao al logo de la izquieda superior*/
+
+
+.nav_item{
+    column-gap: 25px;
+
+}/*espacion entre las palabras */
+
+.nav_link{
+    color: #fff;
+
+}
+
+.nav_link:hover{
+    color: #d9d9d9;
+
+}/*dar sombra cuando paso el mause por las palabras del manu*/
+
+/*HOME*/
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("/static/imagenes/[\ save\ &\ follow\ ]-\ \(◍•ᴗ•◍\).jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.col-10.mt-5{
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+table{
+    color: grey;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgba(243, 140, 210, 0.4);
+
+
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px;
+}
+
+
+.home tr{
+    cursor: pointer;
+}
+
+.home tr:hover{
+    background-color:beige;
+
+}
+
+
